@@ -21,6 +21,12 @@
 
 ## 📌 Featured Projects
 
+### 🏗️ [secure-multi-tier-platform](https://github.com/Steven-Owen-21/secure-multi-tier-platform)
+Enterprise-grade multi-tier AWS architecture: VPC networking, Aurora PostgreSQL, ElastiCache Redis, Cognito OAuth2, API Gateway, WAF, GuardDuty/Config/Security Hub, cross-region DR, CloudFront CDN, ECS auto scaling, IAM permission boundaries, Secrets Manager rotation, KMS encryption governance, CloudWatch composite alarms, S3 lifecycle, AWS Backup, Service Quotas monitoring. 22 Terraform modules, FastAPI application, GitHub Actions CI/CD with OIDC. **267 tests, 10 property-based invariants.** Zero-cost local dev via Docker Compose + LocalStack.
+
+### 📡 [event-driven-data-platform](https://github.com/Steven-Owen-21/event-driven-data-platform)
+Enterprise-grade event-driven analytics platform: EventBridge, Step Functions, Kinesis streaming, Glue/Athena data lake, Bedrock AI (RAG). **460 tests, 11 property-based invariants.** Zero-cost operational model.
+
 ### ☸️ [k8s-platform-toolkit](https://github.com/Steven-Owen-21/k8s-platform-toolkit)
 Production-grade Kubernetes platform: EKS Terraform modules, GitOps with ArgoCD, Python FastAPI microservice, Prometheus/Grafana observability, Helm charts. **98 tests, 5 property-based invariants.** Zero-cost operational model.
 
@@ -36,11 +42,13 @@ IoT vessel monitoring platform: AWS Greengrass edge computing + serverless cloud
 
 | Project | Focus | Tests | Key Tech |
 |:--------|:------|:------|:---------|
+| secure-multi-tier-platform | Multi-tier AWS, Security, DR | 267 | Aurora, Cognito, WAF, KMS, Terraform |
+| event-driven-data-platform | Event-Driven, Streaming, AI | 460 | EventBridge, Kinesis, Bedrock, Step Functions |
 | k8s-platform-toolkit | Kubernetes, GitOps, Python | 98 | EKS, ArgoCD, Helm, Prometheus |
 | cloud-platform-finops | IaC, CI/CD, Cost Governance | 198 | Terraform, ECS, Lambda, GitHub Actions |
 | smart-vessel-system | IoT, Edge, Serverless | 1,633 | Greengrass, DynamoDB, EventBridge |
 
-**Combined: 1,929 tests across 3 platforms, 37 property-based invariants, zero ongoing infrastructure costs.**
+**Combined: 2,656 tests across 5 platforms, 58 property-based invariants, zero ongoing infrastructure costs.**
 
 ---
 
